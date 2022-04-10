@@ -7,7 +7,6 @@ public class FakerUtils {
     public static String getFakerName() {
         Faker faker = new Faker();
         return faker.starTrek().specie();
-
     }
 
     public static String getFakerEmail() {

@@ -70,7 +70,6 @@ public class RegistrationFormTests {
 
     @Test
     public void registrationFormTest() {
-
         registrationFormPage
                 .openPage()
                 .setFirstName(firstName)
